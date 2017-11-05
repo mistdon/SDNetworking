@@ -21,4 +21,7 @@
 - (NSString *)name{
     return NSStringFromClass([self class]);
 }
+- (void)changeName:(NSString *)name{
+    [self setValue:@"shendong" forKey:@"name"];
+}
 @end

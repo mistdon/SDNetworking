@@ -14,5 +14,5 @@
 
 + (instancetype)sharedInstance;
 
-
+- (void)changeName:(NSString *)name;
 @end
