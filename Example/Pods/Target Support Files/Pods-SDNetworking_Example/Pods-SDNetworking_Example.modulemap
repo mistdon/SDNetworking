@@ -1,0 +1,6 @@
+framework module Pods_SDNetworking_Example {
+  umbrella header "Pods-SDNetworking_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

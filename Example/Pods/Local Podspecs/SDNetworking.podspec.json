@@ -1,0 +1,22 @@
+{
+  "name": "SDNetworking",
+  "version": "0.1.0",
+  "summary": "A networking based of AFNetworking",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/momo13014/SDNetworking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "momo13014": "shendong13014@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/momo13014/SDNetworking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SDNetworking/Classes/**/*"
+}

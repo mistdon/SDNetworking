@@ -7,6 +7,7 @@
 //
 
 #import "SDViewController.h"
+#import <SDNetworking/SDNetworking.h>
 
 @interface SDViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"%@",[SDNetworking sharedInstance].name);
 }
 
 - (void)didReceiveMemoryWarning

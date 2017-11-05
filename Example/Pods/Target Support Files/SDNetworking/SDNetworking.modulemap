@@ -1,0 +1,6 @@
+framework module SDNetworking {
+  umbrella header "SDNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
