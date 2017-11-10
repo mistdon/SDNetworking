@@ -18,6 +18,13 @@
     });
     return networking;
 }
+- (instancetype)init{
+    self = [super init];
+    if (self) {
+        
+    }
+    return self;
+}
 - (NSString *)name{
     return NSStringFromClass([self class]);
 }
